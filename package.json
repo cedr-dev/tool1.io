@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "build:css": "tailwind build -i src/style.css -o dist/style.css"
+    "build:css": "tailwind build -i src/style.css -o docs/style.css"
   },
-  "author": "Matthew Beaudin <beaudinmatt@gmail.com>",
+  "contributors": ["Matthew Beaudin <beaudinmatt@gmail.com>", "Ben Buscarino <foss@busc.dev>"],
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.3.1",
