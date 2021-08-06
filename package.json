@@ -5,7 +5,10 @@
   "scripts": {
     "build:css": "tailwind build -i src/style.css -o docs/style.css"
   },
-  "contributors": ["Matthew Beaudin <beaudinmatt@gmail.com>", "Ben Buscarino <foss@busc.dev>"],
+  "contributors": [
+    "Matthew Beaudin <beaudinmatt@gmail.com>",
+    "Ben Buscarino <foss@busc.dev>"
+  ],
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.3.1",

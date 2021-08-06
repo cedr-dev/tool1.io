@@ -7,16 +7,14 @@ module.exports = {
         gray: {
           darkest: '#040505',
           darker: '#0F1111',
-          dark: '#181a1b',
-          light: '#181a1b',
+          dark: '#0b1118',
+          light: '#292f36',
         },
         primary: {
-          dark: '#449f3e',
-          DEFAULT: '#4eb847',
-          light: '#66c160',
+          DEFAULT: '#4ecdc4',
         },
         secondary: {
-          DEFAULT: '#eb1c24',
+          DEFAULT: '#ff4365',
         },
       },
       fontFamily: {
