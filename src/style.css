@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+nav a {
+    @apply text-gray-50 px-12 text-xl uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-sans;
+}
+
+p {
+    @apply font-body text-gray-50;
+}
+
+.img-frame {
+    margin-top: 20px;
+}
+
+.img-frame img {
+    box-shadow: -20px -20px 0px 0px #4eb847;
+}
+
+.bg-gray-transparent {
+    background-color: rgb(15 17 17 / 85%);
+}
+
+.bg-image-trees {
+    background: url('img/trees.jpg'), radial-gradient(ellipse at center, #0000 25%,#181a1b 100%);
+}
+
+.bg-image-sun {
+    background: url('img/sun.jpg'), radial-gradient(ellipse at center, #0000 25%,#181a1b 100%);
+}
+
+.bg-image-water {
+    background: url('img/water.jpg'), radial-gradient(ellipse at center, #0000 25%,#181a1b 100%);
+}
+
+.bg-image {
+    background-size: cover !important;
+    background-position: center !important;
+    background-blend-mode: multiply;
+}
